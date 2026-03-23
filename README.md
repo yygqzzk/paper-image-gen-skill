@@ -15,11 +15,20 @@
 ### 1. 复制 Skill 文件
 
 ```bash
+# 克隆仓库
+git clone https://github.com/yygqzzk/paper-image-gen-skill.git
+
 # 复制到 Claude Code skills 目录
-cp -r paper-image-gen ~/.claude/skills/
+cp -r paper-image-gen-skill ~/.claude/skills/paper-image-gen
+
+# 复制脚本文件（Path B 需要）
+cp paper-image-gen-skill/scripts/image-gen.py ~/.claude/scripts/
+chmod +x ~/.claude/scripts/image-gen.py
 
 # 或复制到 Codex skills 目录
-cp -r paper-image-gen ~/.codex/skills/
+cp -r paper-image-gen-skill ~/.codex/skills/paper-image-gen
+cp paper-image-gen-skill/scripts/image-gen.py ~/.codex/scripts/
+chmod +x ~/.codex/scripts/image-gen.py
 ```
 
 ### 2. 配置 API（仅 Path B 需要）
