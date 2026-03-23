@@ -1,0 +1,8 @@
+{
+  "api_url": "http://zx2.52youxi.cc:3000/v1beta/models/gemini-3-pro-image-preview:generateContent",
+  "api_key": "sk-lJlFnCmFkq4bokG8RPCwB2OeziyM4irqmbcApfGkC0ob51C8",
+  "default_max_rounds": 8,
+  "image_size": "1K",
+  "paper_domain": "CV",
+  "target_venue": "NeurIPS"
+}
